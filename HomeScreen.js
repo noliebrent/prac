@@ -10,12 +10,8 @@ export default function App({ navigation }) {
           style={styles.image}
         />
         <View>
-          <Text style={styles.imageText}>Lost and Found</Text>
-          <Text style={styles.imageTextsub}>Tracker</Text>
+          <Text style={styles.imageText}>Lost and Found Tracker</Text>
         </View>
-      </View>
-      <View>
-        <Text style={styles.title}>Let’s help you find your things!</Text>
       </View>
       <View style={styles.inputborder}>
         <TextInput
@@ -64,7 +60,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   imageContainer: {
-    flexDirection: 'row',
     alignItems: 'center',
     marginTop: 20,
     marginBottom: 20,
@@ -73,16 +68,11 @@ const styles = StyleSheet.create({
     width: 150,
     height: 150,
     resizeMode: 'contain',
+    alignItems: 'center',
   },
   imageText: {
     fontSize: 25,
     color: 'white',
-    marginLeft: 10,
-  },
-  imageTextsub: {
-    fontSize: 25,
-    color: 'white',
-    marginLeft: 47,
   },
   title: {
     fontSize: 20,
