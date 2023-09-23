@@ -11,7 +11,14 @@ export default function Signup({ navigation }) {
     <View>
       <Text style={styles.title}>CREATE AN ACCOUNT</Text>
     </View>
-    <View style={styles.inputborder}>
+        <View style={styles.inputborder}>
+        <TextInput
+          placeholder="*Student Number"
+          style={styles.inputtext}
+          placeholderTextColor="#E9D735"
+        />
+        </View>
+        <View style={styles.inputborder}>
         <TextInput
           placeholder="*Email"
           style={styles.inputtext}
